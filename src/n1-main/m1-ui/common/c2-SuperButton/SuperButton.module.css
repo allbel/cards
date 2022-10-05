@@ -1,0 +1,27 @@
+.default {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    background-image: linear-gradient(to right, lightcoral 0%, #4830F0 51%, lightcoral 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    cursor: pointer;
+    margin: 5px
+}
+
+.default:hover {
+    background-position: right center;
+}
+
+.default:disabled {
+    opacity: 0.5;
+    cursor: auto;
+    background-position: 0 0;
+}
+
+.red {
+    background: red;
+}
