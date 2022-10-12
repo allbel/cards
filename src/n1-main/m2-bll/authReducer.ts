@@ -1,6 +1,6 @@
 const initState: any = {}
 
-export const authReducer = (state = initState, action: any): any => {
+export const authReducer = (state = initState, action: AuthActionsType): any => {
     switch (action.type) {
         // case 'TYPE':
         //     return {...state}
@@ -8,3 +8,5 @@ export const authReducer = (state = initState, action: any): any => {
             return state
     }
 }
+
+export type AuthActionsType = any
