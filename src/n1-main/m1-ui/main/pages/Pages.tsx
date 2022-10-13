@@ -22,7 +22,7 @@ const Pages = () => {
     return (
         <div>
             <Routes>
-                <Route path={PATH.HOME} element={<div>Home</div>}/>
+                <Route path={PATH.HOME} element={<div>Home 1</div>}/>
 
                 <Route path={PATH.LOGIN} element={<Login/>}/>
                 <Route path={PATH.PROFILE} element={<Profile/>}/>
